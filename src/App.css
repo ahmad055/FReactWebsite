@@ -17,6 +17,8 @@
   height:80vh;
   width:100%;
   margin-top: 60px;
+  display: flex;
+  justify-content: center;
 }
 .header h1{
   margin: 0 0 10px 0;
@@ -30,6 +32,10 @@
 }
 .header .brand-name{
   color:#744aab;
+
+}
+.lf{
+  text-align: center;
 }
 .menu_active{
   border-bottom: 1px solid black;
@@ -48,12 +54,16 @@
   padding: 10px 30px;
   font-size: 16px;
   letter-spacing: 1px;
-  display:inline-block;
   text-decoration: none;
-  width: 170px;
+  width: 30%;
   transition: 0.3s;
   color: #744aab;
   text-align: center;
+  display: inline-block;
+  
+  /* display:flex; */
+  /* justify-content: center; */
+
 
 }
 #header .btn-get-started:hover{
@@ -61,7 +71,10 @@
   color:#fff;
 }
 .header-img{
-  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
 }
 .card-img{
   max-height: 160px;
@@ -74,11 +87,13 @@
   }
   #header .header-img img{
     width:60%;
+    height:100%;
   }
 }
 @media (max-width:768px){
   #header{
-    margin-top:12px;
+    margin-top:10px;
+    text-align: center;
   }
   #header h1{
     font-size:20px;
@@ -88,8 +103,22 @@
     margin-bottom:20px;
   }
   #header .header-img img{
-    width:70%;
+    width:80%;
   }
+  #header .btn-get-started{
+    width: auto; 
+    font-size: 8px;
+    border:2px solid #744aab;
+    border-radius: 40px;
+    padding: 5px 17px;
+    align-items: center;
+    display: inline-block;
+    margin-left: 30%;
+    margin-right:30%;
+
+
+
+   } 
 }
 .footer{
   margin-bottom: 0%;
@@ -101,16 +130,13 @@
   padding: 10px 30px;
   font-size: 16px;
   letter-spacing: 1px;
-  display:inline-block;
   text-decoration: none;
   width: 165px;
   transition: 0.3s;
   color: #744aab;
+  text-align: center;
 }
 .s-btn:hover{
   background: #744aab;
   color:#fff;
-}
-.footer{
-  
 }
