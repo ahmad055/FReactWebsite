@@ -139,4 +139,16 @@
 .s-btn:hover{
   background: #744aab;
   color:#fff;
+  border:none;
+}
+.card-btn{
+  color:white;
+  background-color:#744aab;
+  border-color: #744aab;
+}
+.card-btn:hover{
+  color:#744aab;
+  background-color: white;
+  border-color: #744aab;
+  
 }

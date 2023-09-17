@@ -1,7 +1,7 @@
 import andriod from '../src/images/a.jpg';
 import software from '../src/images/b.jpg';
 import digital from '../src/images/c.jpg';
-import mark from '../src/images/d.png';
+import mark from '../src/images/d.jpg';
 import web from '../src/images/e.jpg';
 import app from '../src/images/f.jpg';
 
